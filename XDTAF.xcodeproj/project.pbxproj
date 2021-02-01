@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC7480BC25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FC7480BB25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig */; };
+		FC7480C025C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FC7480BF25C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig */; };
 		FCC4490725C7EA85008B3D02 /* XDTAF.h in Headers */ = {isa = PBXBuildFile; fileRef = FCC4490525C7EA85008B3D02 /* XDTAF.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC7480BB25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Configs.XDTAF.Debug.xcconfig; sourceTree = "<group>"; };
+		FC7480BF25C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Configs.XDTAF.Release.xcconfig; sourceTree = "<group>"; };
 		FCC4490225C7EA85008B3D02 /* XDTAF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XDTAF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC4490525C7EA85008B3D02 /* XDTAF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDTAF.h; sourceTree = "<group>"; };
 		FCC4490625C7EA85008B3D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCC4493A25C7EC0E008B3D02 /* Configs.XDTAF.Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Configs.XDTAF.Debug.xcconfig; sourceTree = "<group>"; };
-		FCC4493B25C7EC25008B3D02 /* Configs.XDTAF.Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Configs.XDTAF.Release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,8 @@
 		FCC4493925C7EBEA008B3D02 /* Configs */ = {
 			isa = PBXGroup;
 			children = (
-				FCC4493A25C7EC0E008B3D02 /* Configs.XDTAF.Debug.xcconfig */,
-				FCC4493B25C7EC25008B3D02 /* Configs.XDTAF.Release.xcconfig */,
+				FC7480BB25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig */,
+				FC7480BF25C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -140,6 +142,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7480C025C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig in Resources */,
+				FC7480BC25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +280,7 @@
 		};
 		FCC4490B25C7EA85008B3D02 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCC4493A25C7EC0E008B3D02 /* Configs.XDTAF.Debug.xcconfig */;
+			baseConfigurationReference = FC7480BB25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -300,7 +304,7 @@
 		};
 		FCC4490C25C7EA85008B3D02 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCC4493B25C7EC25008B3D02 /* Configs.XDTAF.Release.xcconfig */;
+			baseConfigurationReference = FC7480BF25C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
