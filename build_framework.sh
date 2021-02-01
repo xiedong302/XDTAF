@@ -31,6 +31,8 @@ function build() {
 }
 
 
+rm -r -f build
+
 rm -r -f *.zip
 
 build
