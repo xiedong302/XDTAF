@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:XDTAF.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:XDTAFTest/XDTAFTest.xcodeproj">
+   </FileRef>
+</Workspace>

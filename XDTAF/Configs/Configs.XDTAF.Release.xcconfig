@@ -1,0 +1,19 @@
+//
+//  Configs.XDTAF.Release.xcconfig
+//  XDTAF
+//
+//  Created by xiedong on 2021/2/1.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// other linker flags
+OTHER_LDFLAGS = $(inherited) -ObjC
+
+// other warning flags
+WARNING_CFLAGS = $(inherited) "-Wno-nonnull" "-Wno-unused-property-ivar"
+
+// mach-o type
+// value mh_execute mh_dylib mh_bundle staticlib mh_object
+MACH_O_TYPE = staticlib
