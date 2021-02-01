@@ -6,7 +6,7 @@ VERSION=$(date +%y.%m.%d)
 CONFIGURATION="Release"
 
 function buildFatFramework() {
-	flags="OTHER_CFLAGS='-fembed-bitcode' -target $1 -configuration ${CONFIGURATION} build"
+	flags="OTHER_CFLAGS='-fembed-bitcode' -target $1 -configuration ${CONFIGURATION}"
 
 	xcodebuild clean
 
