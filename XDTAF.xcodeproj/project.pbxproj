@@ -48,6 +48,7 @@
 		FCC4490425C7EA85008B3D02 /* XDTAF */ = {
 			isa = PBXGroup;
 			children = (
+				FCC4497F25C8027B008B3D02 /* HTTP */,
 				FCC4493925C7EBEA008B3D02 /* Configs */,
 				FCC4490525C7EA85008B3D02 /* XDTAF.h */,
 				FCC4490625C7EA85008B3D02 /* Info.plist */,
@@ -62,6 +63,13 @@
 				FCC4493B25C7EC25008B3D02 /* Configs.XDTAF.Release.xcconfig */,
 			);
 			path = Configs;
+			sourceTree = "<group>";
+		};
+		FCC4497F25C8027B008B3D02 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HTTP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
