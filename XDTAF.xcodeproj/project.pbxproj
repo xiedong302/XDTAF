@@ -7,12 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC1B567225C8E7BB008E85F5 /* XDTAFHTTPHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = FC1B567025C8E7BB008E85F5 /* XDTAFHTTPHeader.h */; };
+		FC1B567325C8E7BB008E85F5 /* XDTAFHTTPHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1B567125C8E7BB008E85F5 /* XDTAFHTTPHeader.m */; };
+		FC1B567725C92648008E85F5 /* XDTAFHTTPCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = FC1B567525C92648008E85F5 /* XDTAFHTTPCommon.h */; };
+		FC1B567825C92648008E85F5 /* XDTAFHTTPCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1B567625C92648008E85F5 /* XDTAFHTTPCommon.m */; };
+		FC1B567C25C92963008E85F5 /* XDTAFHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FC1B567A25C92963008E85F5 /* XDTAFHTTPRequest.h */; };
+		FC1B567D25C92963008E85F5 /* XDTAFHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1B567B25C92963008E85F5 /* XDTAFHTTPRequest.m */; };
+		FC1B568125C92BAF008E85F5 /* XDTAFHTTP.h in Headers */ = {isa = PBXBuildFile; fileRef = FC1B567F25C92BAF008E85F5 /* XDTAFHTTP.h */; };
+		FC1B568225C92BAF008E85F5 /* XDTAFHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1B568025C92BAF008E85F5 /* XDTAFHTTP.m */; };
+		FC1B568625C92C60008E85F5 /* XDTAFHTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FC1B568425C92C5F008E85F5 /* XDTAFHTTPResponse.h */; };
+		FC1B568725C92C60008E85F5 /* XDTAFHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1B568525C92C60008E85F5 /* XDTAFHTTPResponse.m */; };
+		FC1B568C25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FC1B568A25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.h */; };
+		FC1B568D25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1B568B25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.m */; };
 		FC7480BC25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FC7480BB25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig */; };
 		FC7480C025C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FC7480BF25C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig */; };
 		FCC4490725C7EA85008B3D02 /* XDTAF.h in Headers */ = {isa = PBXBuildFile; fileRef = FCC4490525C7EA85008B3D02 /* XDTAF.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC1B567025C8E7BB008E85F5 /* XDTAFHTTPHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDTAFHTTPHeader.h; sourceTree = "<group>"; };
+		FC1B567125C8E7BB008E85F5 /* XDTAFHTTPHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDTAFHTTPHeader.m; sourceTree = "<group>"; };
+		FC1B567525C92648008E85F5 /* XDTAFHTTPCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDTAFHTTPCommon.h; sourceTree = "<group>"; };
+		FC1B567625C92648008E85F5 /* XDTAFHTTPCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDTAFHTTPCommon.m; sourceTree = "<group>"; };
+		FC1B567A25C92963008E85F5 /* XDTAFHTTPRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDTAFHTTPRequest.h; sourceTree = "<group>"; };
+		FC1B567B25C92963008E85F5 /* XDTAFHTTPRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDTAFHTTPRequest.m; sourceTree = "<group>"; };
+		FC1B567F25C92BAF008E85F5 /* XDTAFHTTP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDTAFHTTP.h; sourceTree = "<group>"; };
+		FC1B568025C92BAF008E85F5 /* XDTAFHTTP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDTAFHTTP.m; sourceTree = "<group>"; };
+		FC1B568425C92C5F008E85F5 /* XDTAFHTTPResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDTAFHTTPResponse.h; sourceTree = "<group>"; };
+		FC1B568525C92C60008E85F5 /* XDTAFHTTPResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDTAFHTTPResponse.m; sourceTree = "<group>"; };
+		FC1B568A25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDTAFHTTPAFNHelper.h; sourceTree = "<group>"; };
+		FC1B568B25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDTAFHTTPAFNHelper.m; sourceTree = "<group>"; };
 		FC7480BB25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Configs.XDTAF.Debug.xcconfig; sourceTree = "<group>"; };
 		FC7480BF25C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Configs.XDTAF.Release.xcconfig; sourceTree = "<group>"; };
 		FCC4490225C7EA85008B3D02 /* XDTAF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XDTAF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +94,18 @@
 		FCC4497F25C8027B008B3D02 /* HTTP */ = {
 			isa = PBXGroup;
 			children = (
+				FC1B567F25C92BAF008E85F5 /* XDTAFHTTP.h */,
+				FC1B568025C92BAF008E85F5 /* XDTAFHTTP.m */,
+				FC1B567025C8E7BB008E85F5 /* XDTAFHTTPHeader.h */,
+				FC1B567125C8E7BB008E85F5 /* XDTAFHTTPHeader.m */,
+				FC1B567A25C92963008E85F5 /* XDTAFHTTPRequest.h */,
+				FC1B567B25C92963008E85F5 /* XDTAFHTTPRequest.m */,
+				FC1B568425C92C5F008E85F5 /* XDTAFHTTPResponse.h */,
+				FC1B568525C92C60008E85F5 /* XDTAFHTTPResponse.m */,
+				FC1B567525C92648008E85F5 /* XDTAFHTTPCommon.h */,
+				FC1B567625C92648008E85F5 /* XDTAFHTTPCommon.m */,
+				FC1B568A25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.h */,
+				FC1B568B25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.m */,
 			);
 			path = HTTP;
 			sourceTree = "<group>";
@@ -81,7 +117,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1B567C25C92963008E85F5 /* XDTAFHTTPRequest.h in Headers */,
 				FCC4490725C7EA85008B3D02 /* XDTAF.h in Headers */,
+				FC1B567225C8E7BB008E85F5 /* XDTAFHTTPHeader.h in Headers */,
+				FC1B568625C92C60008E85F5 /* XDTAFHTTPResponse.h in Headers */,
+				FC1B568C25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.h in Headers */,
+				FC1B568125C92BAF008E85F5 /* XDTAFHTTP.h in Headers */,
+				FC1B567725C92648008E85F5 /* XDTAFHTTPCommon.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +196,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1B568725C92C60008E85F5 /* XDTAFHTTPResponse.m in Sources */,
+				FC1B568D25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.m in Sources */,
+				FC1B567D25C92963008E85F5 /* XDTAFHTTPRequest.m in Sources */,
+				FC1B568225C92BAF008E85F5 /* XDTAFHTTP.m in Sources */,
+				FC1B567825C92648008E85F5 /* XDTAFHTTPCommon.m in Sources */,
+				FC1B567325C8E7BB008E85F5 /* XDTAFHTTPHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
