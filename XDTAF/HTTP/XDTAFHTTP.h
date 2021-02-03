@@ -77,4 +77,40 @@ typedef void(^XDTAFHTTPHandler)(XDTAFHTTPResponse *response);
 
 @end
 
+// MARK: XDTAFHTTPDownloader
+@class XDTAFHTTPDownloader;
+@protocol XDTAFHTTPDownloaderDelegate <NSObject>
+
+@optional
+
+- (void)httpDownloader:(XDTAFHTTPDownloader *)downloader didUpdateProgress:(int)progress;
+
+- (void)httpDownloader:(XDTAFHTTPDownloader *)downloader didFinishWithError:(NSError *)error;
+
+@end
+
+@interface XDTAFHTTPDownloader : NSObject
+
+@property (nonatomic, weak) id<XDTAFHTTPDownloaderDelegate> delegate; // 主线程调用
+@property (nonatomic, readonly, copy) NSString *downloadURL; // 下载地址
+@property (nonatomic, readonly, copy) NSString *savePath; // 保存路径
+@property (nonatomic, readonly, assign) int progress; // 0 ~ 100
+
+@property (nonatomic, copy) NSString *md5; // 下载后校验MD5
+@property (nonatomic, copy) NSString *unzipPath; // 下载后解压路径
+
+/**
+ @abstract 创建一个XDTAFHTTPDownloader
+ 
+ @param downloadURL 下载地址
+ @param savePath 保存路径
+ */
+- (instancetype)initWithURL:(NSString *)downloadURL toPath:(NSString *)savePath;
+
+- (void)start;
+
+- (void)cancel;
+
+@end
+
 NS_ASSUME_NONNULL_END

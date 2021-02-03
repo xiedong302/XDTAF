@@ -12,7 +12,7 @@
 OTHER_LDFLAGS = $(inherited) -ObjC
 
 // other warning flags
-WARNING_CFLAGS = $(inherited) "-Wno-nonnull" "-Wno-unused-property-ivar"
+WARNING_CFLAGS = $(inherited) "-Wno-nonnull" "-Wno-unused-property-ivar" "-Wno-deprecated-declarations"
 
 // mach-o type
 // value mh_execute mh_dylib mh_bundle staticlib mh_object

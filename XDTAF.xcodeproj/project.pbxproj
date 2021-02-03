@@ -21,6 +21,8 @@
 		FC1B568D25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1B568B25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.m */; };
 		FC7480BC25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FC7480BB25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig */; };
 		FC7480C025C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FC7480BF25C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig */; };
+		FC89521525CA2CE800975C3A /* NSString+XDTAF.h in Headers */ = {isa = PBXBuildFile; fileRef = FC89521325CA2CE800975C3A /* NSString+XDTAF.h */; };
+		FC89521625CA2CE800975C3A /* NSString+XDTAF.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89521425CA2CE800975C3A /* NSString+XDTAF.m */; };
 		FCC4490725C7EA85008B3D02 /* XDTAF.h in Headers */ = {isa = PBXBuildFile; fileRef = FCC4490525C7EA85008B3D02 /* XDTAF.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,8 @@
 		FC1B568B25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDTAFHTTPAFNHelper.m; sourceTree = "<group>"; };
 		FC7480BB25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Configs.XDTAF.Debug.xcconfig; sourceTree = "<group>"; };
 		FC7480BF25C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Configs.XDTAF.Release.xcconfig; sourceTree = "<group>"; };
+		FC89521325CA2CE800975C3A /* NSString+XDTAF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+XDTAF.h"; sourceTree = "<group>"; };
+		FC89521425CA2CE800975C3A /* NSString+XDTAF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+XDTAF.m"; sourceTree = "<group>"; };
 		FCC4490225C7EA85008B3D02 /* XDTAF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XDTAF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC4490525C7EA85008B3D02 /* XDTAF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDTAF.h; sourceTree = "<group>"; };
 		FCC4490625C7EA85008B3D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC89521225CA2CC300975C3A /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				FC89521325CA2CE800975C3A /* NSString+XDTAF.h */,
+				FC89521425CA2CE800975C3A /* NSString+XDTAF.m */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
 		FCC448F825C7EA85008B3D02 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +87,7 @@
 		FCC4490425C7EA85008B3D02 /* XDTAF */ = {
 			isa = PBXGroup;
 			children = (
+				FC89521225CA2CC300975C3A /* Categorys */,
 				FCC4497F25C8027B008B3D02 /* HTTP */,
 				FCC4493925C7EBEA008B3D02 /* Configs */,
 				FCC4490525C7EA85008B3D02 /* XDTAF.h */,
@@ -117,6 +131,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC89521525CA2CE800975C3A /* NSString+XDTAF.h in Headers */,
 				FC1B567C25C92963008E85F5 /* XDTAFHTTPRequest.h in Headers */,
 				FCC4490725C7EA85008B3D02 /* XDTAF.h in Headers */,
 				FC1B567225C8E7BB008E85F5 /* XDTAFHTTPHeader.h in Headers */,
@@ -200,6 +215,7 @@
 				FC1B568D25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.m in Sources */,
 				FC1B567D25C92963008E85F5 /* XDTAFHTTPRequest.m in Sources */,
 				FC1B568225C92BAF008E85F5 /* XDTAFHTTP.m in Sources */,
+				FC89521625CA2CE800975C3A /* NSString+XDTAF.m in Sources */,
 				FC1B567825C92648008E85F5 /* XDTAFHTTPCommon.m in Sources */,
 				FC1B567325C8E7BB008E85F5 /* XDTAFHTTPHeader.m in Sources */,
 			);
