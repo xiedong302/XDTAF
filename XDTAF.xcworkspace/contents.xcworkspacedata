@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:XDTAF.xcodeproj">
+      location = "container:XDTAFTest/XDTAFTest.xcodeproj">
    </FileRef>
    <FileRef
-      location = "container:XDTAFTest/XDTAFTest.xcodeproj">
+      location = "group:XDTAF.xcodeproj">
    </FileRef>
 </Workspace>

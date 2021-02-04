@@ -74,7 +74,7 @@
 		FC57F83625CBEC9100A752E1 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F82725CBEC9100A752E1 /* FMDatabasePool.m */; };
 		FC57F83725CBEC9100A752E1 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F82825CBEC9100A752E1 /* FMResultSet.m */; };
 		FC57F84225CBED5900A752E1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC57F84125CBED5900A752E1 /* Security.framework */; };
-		FC57F85225CBEE6B00A752E1 /* XDTAFHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F85025CBEE6B00A752E1 /* XDTAFHandler.h */; };
+		FC57F85225CBEE6B00A752E1 /* XDTAFHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F85025CBEE6B00A752E1 /* XDTAFHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC57F85325CBEE6B00A752E1 /* XDTAFHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F85125CBEE6B00A752E1 /* XDTAFHandler.m */; };
 		FC57F85825CBEEBC00A752E1 /* XDTAFFMDBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F85625CBEEBC00A752E1 /* XDTAFFMDBHelper.h */; };
 		FC57F85925CBEEBC00A752E1 /* XDTAFFMDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F85725CBEEBC00A752E1 /* XDTAFFMDBHelper.m */; };
@@ -361,6 +361,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC57F85225CBEE6B00A752E1 /* XDTAFHandler.h in Headers */,
 				FC57F80625CBEB2100A752E1 /* mz_zip_rw.h in Headers */,
 				FC57F81225CBEB2200A752E1 /* SSZipCommon.h in Headers */,
 				FC57F81125CBEB2200A752E1 /* SSZipArchive.h in Headers */,
@@ -390,7 +391,6 @@
 				FC57F80525CBEB2100A752E1 /* mz_strm_pkcrypt.h in Headers */,
 				FC57F83525CBEC9100A752E1 /* FMDatabaseAdditions.h in Headers */,
 				FC57F82B25CBEC9100A752E1 /* SAMKeychainQuery.h in Headers */,
-				FC57F85225CBEE6B00A752E1 /* XDTAFHandler.h in Headers */,
 				FC57F7F525CBEB2100A752E1 /* mz_strm_wzaes.h in Headers */,
 				FC1B568C25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.h in Headers */,
 				FC57F82D25CBEC9100A752E1 /* FMDatabase.h in Headers */,
