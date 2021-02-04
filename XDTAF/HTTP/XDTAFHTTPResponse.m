@@ -16,28 +16,35 @@
 @property (nonatomic, strong) XDTAFHTTPHeader * header;
 
 @end
+
 @implementation XDTAFHTTPResponse
 
-- (instancetype)initWith:(int)code contentType:(NSString * _Nullable)contentType contentLength:(long)contentLength data:(NSData * _Nullable)data error:(NSError * _Nullable)error {
+- (instancetype)initWith:(int)code
+             contentType:(NSString *)contentType
+           contentLength:(long)contentLength
+                    data:(NSData *)data
+                   error:(NSError *)error {
+
     self = [super init];
-    
+
     if (self) {
         _code = code;
         _contentType = [contentType copy];
         _contentLength = contentLength;
-        
+
         _httpData = data;
-        
-        if (error) {
+
+        if(error) {
             _httpError = error;
-        } else if (!XDTAFHTTPCodeSuccessful(code)) {
+        } else if(!XDTAFHTTPCodeSuccessful(code)) {
             _httpError = XDTAFHTTPError(@"HTTP failed: %d", code);
         } else {
             _httpError = nil;
         }
-        
+
         _header = [[XDTAFHTTPHeader alloc] init];
     }
+
     return self;
 }
 
@@ -46,7 +53,7 @@
 }
 
 - (NSError *)error {
-    return self.error;
+    return self.httpError;
 }
 
 - (NSString *)getHeader:(NSString *)name {
@@ -66,12 +73,12 @@
 }
 
 - (NSString *)string {
-    NSData *data = [self data];
-    
-    if (data && data.length > 0) {
+    NSData * data = [self data];
+
+    if(data && data.length > 0) {
         return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     }
-    
+
     return nil;
 }
 

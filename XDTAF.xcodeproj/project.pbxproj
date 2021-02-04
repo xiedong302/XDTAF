@@ -19,10 +19,67 @@
 		FC1B568725C92C60008E85F5 /* XDTAFHTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1B568525C92C60008E85F5 /* XDTAFHTTPResponse.m */; };
 		FC1B568C25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FC1B568A25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.h */; };
 		FC1B568D25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1B568B25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.m */; };
+		FC57F7BE25CBE5FE00A752E1 /* XDTAFNSString.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F7BC25CBE5FE00A752E1 /* XDTAFNSString.h */; };
+		FC57F7BF25CBE5FE00A752E1 /* XDTAFNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F7BD25CBE5FE00A752E1 /* XDTAFNSString.m */; };
+		FC57F7C325CBE60D00A752E1 /* XDTAFNSData.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F7C125CBE60D00A752E1 /* XDTAFNSData.h */; };
+		FC57F7C425CBE60D00A752E1 /* XDTAFNSData.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F7C225CBE60D00A752E1 /* XDTAFNSData.m */; };
+		FC57F7CA25CBE74100A752E1 /* XDTAFHash.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F7C825CBE74100A752E1 /* XDTAFHash.h */; };
+		FC57F7CB25CBE74100A752E1 /* XDTAFHash.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F7C925CBE74100A752E1 /* XDTAFHash.m */; };
+		FC57F7F325CBEB2100A752E1 /* mz_strm_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = FC57F7D225CBEB2100A752E1 /* mz_strm_os_posix.c */; };
+		FC57F7F425CBEB2100A752E1 /* mz_strm_pkcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = FC57F7D325CBEB2100A752E1 /* mz_strm_pkcrypt.c */; };
+		FC57F7F525CBEB2100A752E1 /* mz_strm_wzaes.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F7D425CBEB2100A752E1 /* mz_strm_wzaes.h */; };
+		FC57F7F625CBEB2100A752E1 /* mz_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F7D525CBEB2100A752E1 /* mz_compat.h */; };
+		FC57F7F725CBEB2100A752E1 /* mz_strm_zlib.c in Sources */ = {isa = PBXBuildFile; fileRef = FC57F7D625CBEB2100A752E1 /* mz_strm_zlib.c */; };
+		FC57F7F825CBEB2100A752E1 /* mz_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = FC57F7D725CBEB2100A752E1 /* mz_zip.c */; };
+		FC57F7F925CBEB2100A752E1 /* mz_os.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F7D825CBEB2100A752E1 /* mz_os.h */; };
+		FC57F7FA25CBEB2100A752E1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = FC57F7D925CBEB2100A752E1 /* LICENSE */; };
+		FC57F7FB25CBEB2100A752E1 /* mz_zip_rw.c in Sources */ = {isa = PBXBuildFile; fileRef = FC57F7DA25CBEB2100A752E1 /* mz_zip_rw.c */; };
+		FC57F7FC25CBEB2100A752E1 /* mz_strm_split.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F7DB25CBEB2100A752E1 /* mz_strm_split.h */; };
+		FC57F7FD25CBEB2100A752E1 /* mz_strm_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F7DC25CBEB2100A752E1 /* mz_strm_buf.h */; };
+		FC57F7FE25CBEB2100A752E1 /* mz_crypt_apple.c in Sources */ = {isa = PBXBuildFile; fileRef = FC57F7DD25CBEB2100A752E1 /* mz_crypt_apple.c */; };
+		FC57F7FF25CBEB2100A752E1 /* mz_strm.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F7DE25CBEB2100A752E1 /* mz_strm.h */; };
+		FC57F80025CBEB2100A752E1 /* mz_strm_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = FC57F7DF25CBEB2100A752E1 /* mz_strm_mem.c */; };
+		FC57F80125CBEB2100A752E1 /* mz_crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = FC57F7E025CBEB2100A752E1 /* mz_crypt.c */; };
+		FC57F80225CBEB2100A752E1 /* mz_strm_wzaes.c in Sources */ = {isa = PBXBuildFile; fileRef = FC57F7E125CBEB2100A752E1 /* mz_strm_wzaes.c */; };
+		FC57F80325CBEB2100A752E1 /* mz_strm_zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F7E225CBEB2100A752E1 /* mz_strm_zlib.h */; };
+		FC57F80425CBEB2100A752E1 /* mz_compat.c in Sources */ = {isa = PBXBuildFile; fileRef = FC57F7E325CBEB2100A752E1 /* mz_compat.c */; };
+		FC57F80525CBEB2100A752E1 /* mz_strm_pkcrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F7E425CBEB2100A752E1 /* mz_strm_pkcrypt.h */; };
+		FC57F80625CBEB2100A752E1 /* mz_zip_rw.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F7E525CBEB2100A752E1 /* mz_zip_rw.h */; };
+		FC57F80725CBEB2200A752E1 /* mz_os.c in Sources */ = {isa = PBXBuildFile; fileRef = FC57F7E625CBEB2100A752E1 /* mz_os.c */; };
+		FC57F80825CBEB2200A752E1 /* mz_zip.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F7E725CBEB2100A752E1 /* mz_zip.h */; };
+		FC57F80925CBEB2200A752E1 /* mz_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = FC57F7E825CBEB2100A752E1 /* mz_os_posix.c */; };
+		FC57F80A25CBEB2200A752E1 /* mz.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F7E925CBEB2100A752E1 /* mz.h */; };
+		FC57F80B25CBEB2200A752E1 /* mz_strm_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = FC57F7EA25CBEB2100A752E1 /* mz_strm_buf.c */; };
+		FC57F80C25CBEB2200A752E1 /* mz_strm_split.c in Sources */ = {isa = PBXBuildFile; fileRef = FC57F7EB25CBEB2100A752E1 /* mz_strm_split.c */; };
+		FC57F80D25CBEB2200A752E1 /* mz_crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F7EC25CBEB2100A752E1 /* mz_crypt.h */; };
+		FC57F80E25CBEB2200A752E1 /* mz_strm_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F7ED25CBEB2100A752E1 /* mz_strm_mem.h */; };
+		FC57F80F25CBEB2200A752E1 /* mz_strm.c in Sources */ = {isa = PBXBuildFile; fileRef = FC57F7EE25CBEB2100A752E1 /* mz_strm.c */; };
+		FC57F81025CBEB2200A752E1 /* mz_strm_os.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F7EF25CBEB2100A752E1 /* mz_strm_os.h */; };
+		FC57F81125CBEB2200A752E1 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F7F025CBEB2100A752E1 /* SSZipArchive.h */; };
+		FC57F81225CBEB2200A752E1 /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F7F125CBEB2100A752E1 /* SSZipCommon.h */; };
+		FC57F81325CBEB2200A752E1 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F7F225CBEB2100A752E1 /* SSZipArchive.m */; };
+		FC57F82925CBEC9100A752E1 /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F81925CBEC9100A752E1 /* SAMKeychainQuery.m */; };
+		FC57F82A25CBEC9100A752E1 /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F81A25CBEC9100A752E1 /* SAMKeychain.h */; };
+		FC57F82B25CBEC9100A752E1 /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F81B25CBEC9100A752E1 /* SAMKeychainQuery.h */; };
+		FC57F82C25CBEC9100A752E1 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F81C25CBEC9100A752E1 /* SAMKeychain.m */; };
+		FC57F82D25CBEC9100A752E1 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F81E25CBEC9100A752E1 /* FMDatabase.h */; };
+		FC57F82E25CBEC9100A752E1 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F81F25CBEC9100A752E1 /* FMDatabaseQueue.m */; };
+		FC57F82F25CBEC9100A752E1 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F82025CBEC9100A752E1 /* FMResultSet.h */; };
+		FC57F83025CBEC9100A752E1 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F82125CBEC9100A752E1 /* FMDatabasePool.h */; };
+		FC57F83125CBEC9100A752E1 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F82225CBEC9100A752E1 /* FMDatabaseAdditions.m */; };
+		FC57F83225CBEC9100A752E1 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F82325CBEC9100A752E1 /* FMDatabase.m */; };
+		FC57F83325CBEC9100A752E1 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F82425CBEC9100A752E1 /* FMDatabaseQueue.h */; };
+		FC57F83425CBEC9100A752E1 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F82525CBEC9100A752E1 /* FMDB.h */; };
+		FC57F83525CBEC9100A752E1 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F82625CBEC9100A752E1 /* FMDatabaseAdditions.h */; };
+		FC57F83625CBEC9100A752E1 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F82725CBEC9100A752E1 /* FMDatabasePool.m */; };
+		FC57F83725CBEC9100A752E1 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F82825CBEC9100A752E1 /* FMResultSet.m */; };
+		FC57F84225CBED5900A752E1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC57F84125CBED5900A752E1 /* Security.framework */; };
+		FC57F85225CBEE6B00A752E1 /* XDTAFHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F85025CBEE6B00A752E1 /* XDTAFHandler.h */; };
+		FC57F85325CBEE6B00A752E1 /* XDTAFHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F85125CBEE6B00A752E1 /* XDTAFHandler.m */; };
+		FC57F85825CBEEBC00A752E1 /* XDTAFFMDBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F85625CBEEBC00A752E1 /* XDTAFFMDBHelper.h */; };
+		FC57F85925CBEEBC00A752E1 /* XDTAFFMDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F85725CBEEBC00A752E1 /* XDTAFFMDBHelper.m */; };
 		FC7480BC25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FC7480BB25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig */; };
 		FC7480C025C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FC7480BF25C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig */; };
-		FC89521525CA2CE800975C3A /* NSString+XDTAF.h in Headers */ = {isa = PBXBuildFile; fileRef = FC89521325CA2CE800975C3A /* NSString+XDTAF.h */; };
-		FC89521625CA2CE800975C3A /* NSString+XDTAF.m in Sources */ = {isa = PBXBuildFile; fileRef = FC89521425CA2CE800975C3A /* NSString+XDTAF.m */; };
 		FCC4490725C7EA85008B3D02 /* XDTAF.h in Headers */ = {isa = PBXBuildFile; fileRef = FCC4490525C7EA85008B3D02 /* XDTAF.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -39,10 +96,72 @@
 		FC1B568525C92C60008E85F5 /* XDTAFHTTPResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDTAFHTTPResponse.m; sourceTree = "<group>"; };
 		FC1B568A25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDTAFHTTPAFNHelper.h; sourceTree = "<group>"; };
 		FC1B568B25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDTAFHTTPAFNHelper.m; sourceTree = "<group>"; };
+		FC57F7BC25CBE5FE00A752E1 /* XDTAFNSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDTAFNSString.h; sourceTree = "<group>"; };
+		FC57F7BD25CBE5FE00A752E1 /* XDTAFNSString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDTAFNSString.m; sourceTree = "<group>"; };
+		FC57F7C125CBE60D00A752E1 /* XDTAFNSData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDTAFNSData.h; sourceTree = "<group>"; };
+		FC57F7C225CBE60D00A752E1 /* XDTAFNSData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDTAFNSData.m; sourceTree = "<group>"; };
+		FC57F7C825CBE74100A752E1 /* XDTAFHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDTAFHash.h; sourceTree = "<group>"; };
+		FC57F7C925CBE74100A752E1 /* XDTAFHash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDTAFHash.m; sourceTree = "<group>"; };
+		FC57F7D225CBEB2100A752E1 /* mz_strm_os_posix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mz_strm_os_posix.c; sourceTree = "<group>"; };
+		FC57F7D325CBEB2100A752E1 /* mz_strm_pkcrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mz_strm_pkcrypt.c; sourceTree = "<group>"; };
+		FC57F7D425CBEB2100A752E1 /* mz_strm_wzaes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mz_strm_wzaes.h; sourceTree = "<group>"; };
+		FC57F7D525CBEB2100A752E1 /* mz_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mz_compat.h; sourceTree = "<group>"; };
+		FC57F7D625CBEB2100A752E1 /* mz_strm_zlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mz_strm_zlib.c; sourceTree = "<group>"; };
+		FC57F7D725CBEB2100A752E1 /* mz_zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mz_zip.c; sourceTree = "<group>"; };
+		FC57F7D825CBEB2100A752E1 /* mz_os.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mz_os.h; sourceTree = "<group>"; };
+		FC57F7D925CBEB2100A752E1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FC57F7DA25CBEB2100A752E1 /* mz_zip_rw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mz_zip_rw.c; sourceTree = "<group>"; };
+		FC57F7DB25CBEB2100A752E1 /* mz_strm_split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mz_strm_split.h; sourceTree = "<group>"; };
+		FC57F7DC25CBEB2100A752E1 /* mz_strm_buf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mz_strm_buf.h; sourceTree = "<group>"; };
+		FC57F7DD25CBEB2100A752E1 /* mz_crypt_apple.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mz_crypt_apple.c; sourceTree = "<group>"; };
+		FC57F7DE25CBEB2100A752E1 /* mz_strm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mz_strm.h; sourceTree = "<group>"; };
+		FC57F7DF25CBEB2100A752E1 /* mz_strm_mem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mz_strm_mem.c; sourceTree = "<group>"; };
+		FC57F7E025CBEB2100A752E1 /* mz_crypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mz_crypt.c; sourceTree = "<group>"; };
+		FC57F7E125CBEB2100A752E1 /* mz_strm_wzaes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mz_strm_wzaes.c; sourceTree = "<group>"; };
+		FC57F7E225CBEB2100A752E1 /* mz_strm_zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mz_strm_zlib.h; sourceTree = "<group>"; };
+		FC57F7E325CBEB2100A752E1 /* mz_compat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mz_compat.c; sourceTree = "<group>"; };
+		FC57F7E425CBEB2100A752E1 /* mz_strm_pkcrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mz_strm_pkcrypt.h; sourceTree = "<group>"; };
+		FC57F7E525CBEB2100A752E1 /* mz_zip_rw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mz_zip_rw.h; sourceTree = "<group>"; };
+		FC57F7E625CBEB2100A752E1 /* mz_os.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mz_os.c; sourceTree = "<group>"; };
+		FC57F7E725CBEB2100A752E1 /* mz_zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mz_zip.h; sourceTree = "<group>"; };
+		FC57F7E825CBEB2100A752E1 /* mz_os_posix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mz_os_posix.c; sourceTree = "<group>"; };
+		FC57F7E925CBEB2100A752E1 /* mz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mz.h; sourceTree = "<group>"; };
+		FC57F7EA25CBEB2100A752E1 /* mz_strm_buf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mz_strm_buf.c; sourceTree = "<group>"; };
+		FC57F7EB25CBEB2100A752E1 /* mz_strm_split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mz_strm_split.c; sourceTree = "<group>"; };
+		FC57F7EC25CBEB2100A752E1 /* mz_crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mz_crypt.h; sourceTree = "<group>"; };
+		FC57F7ED25CBEB2100A752E1 /* mz_strm_mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mz_strm_mem.h; sourceTree = "<group>"; };
+		FC57F7EE25CBEB2100A752E1 /* mz_strm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mz_strm.c; sourceTree = "<group>"; };
+		FC57F7EF25CBEB2100A752E1 /* mz_strm_os.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mz_strm_os.h; sourceTree = "<group>"; };
+		FC57F7F025CBEB2100A752E1 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		FC57F7F125CBEB2100A752E1 /* SSZipCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipCommon.h; sourceTree = "<group>"; };
+		FC57F7F225CBEB2100A752E1 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		FC57F81925CBEC9100A752E1 /* SAMKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychainQuery.m; sourceTree = "<group>"; };
+		FC57F81A25CBEC9100A752E1 /* SAMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychain.h; sourceTree = "<group>"; };
+		FC57F81B25CBEC9100A752E1 /* SAMKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychainQuery.h; sourceTree = "<group>"; };
+		FC57F81C25CBEC9100A752E1 /* SAMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychain.m; sourceTree = "<group>"; };
+		FC57F81E25CBEC9100A752E1 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		FC57F81F25CBEC9100A752E1 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		FC57F82025CBEC9100A752E1 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		FC57F82125CBEC9100A752E1 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		FC57F82225CBEC9100A752E1 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		FC57F82325CBEC9100A752E1 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		FC57F82425CBEC9100A752E1 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		FC57F82525CBEC9100A752E1 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		FC57F82625CBEC9100A752E1 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		FC57F82725CBEC9100A752E1 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		FC57F82825CBEC9100A752E1 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		FC57F84125CBED5900A752E1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		FC57F84325CBED6900A752E1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
+		FC57F84425CBED7A00A752E1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		FC57F84A25CBEDCB00A752E1 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libxml2.tbd; sourceTree = DEVELOPER_DIR; };
+		FC57F84B25CBEDD600A752E1 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libiconv.tbd; sourceTree = DEVELOPER_DIR; };
+		FC57F84C25CBEDE400A752E1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
+		FC57F85025CBEE6B00A752E1 /* XDTAFHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDTAFHandler.h; sourceTree = "<group>"; };
+		FC57F85125CBEE6B00A752E1 /* XDTAFHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDTAFHandler.m; sourceTree = "<group>"; };
+		FC57F85625CBEEBC00A752E1 /* XDTAFFMDBHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDTAFFMDBHelper.h; sourceTree = "<group>"; };
+		FC57F85725CBEEBC00A752E1 /* XDTAFFMDBHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDTAFFMDBHelper.m; sourceTree = "<group>"; };
 		FC7480BB25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Configs.XDTAF.Debug.xcconfig; sourceTree = "<group>"; };
 		FC7480BF25C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Configs.XDTAF.Release.xcconfig; sourceTree = "<group>"; };
-		FC89521325CA2CE800975C3A /* NSString+XDTAF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+XDTAF.h"; sourceTree = "<group>"; };
-		FC89521425CA2CE800975C3A /* NSString+XDTAF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+XDTAF.m"; sourceTree = "<group>"; };
 		FCC4490225C7EA85008B3D02 /* XDTAF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XDTAF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC4490525C7EA85008B3D02 /* XDTAF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDTAF.h; sourceTree = "<group>"; };
 		FCC4490625C7EA85008B3D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,19 +172,128 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC57F84225CBED5900A752E1 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FC89521225CA2CC300975C3A /* Categorys */ = {
+		FC57F7CE25CBE79A00A752E1 /* Thrid */ = {
 			isa = PBXGroup;
 			children = (
-				FC89521325CA2CE800975C3A /* NSString+XDTAF.h */,
-				FC89521425CA2CE800975C3A /* NSString+XDTAF.m */,
+				FC57F81D25CBEC9100A752E1 /* FMDB */,
+				FC57F81825CBEC9100A752E1 /* SAMKeychain */,
+				FC57F7D025CBEB2100A752E1 /* ZipArchive */,
 			);
-			path = Categorys;
+			path = Thrid;
+			sourceTree = "<group>";
+		};
+		FC57F7CF25CBEB0800A752E1 /* TAF */ = {
+			isa = PBXGroup;
+			children = (
+				FC57F7BC25CBE5FE00A752E1 /* XDTAFNSString.h */,
+				FC57F7BD25CBE5FE00A752E1 /* XDTAFNSString.m */,
+				FC57F7C125CBE60D00A752E1 /* XDTAFNSData.h */,
+				FC57F7C225CBE60D00A752E1 /* XDTAFNSData.m */,
+				FC57F7C825CBE74100A752E1 /* XDTAFHash.h */,
+				FC57F7C925CBE74100A752E1 /* XDTAFHash.m */,
+				FC57F85025CBEE6B00A752E1 /* XDTAFHandler.h */,
+				FC57F85125CBEE6B00A752E1 /* XDTAFHandler.m */,
+				FC57F85625CBEEBC00A752E1 /* XDTAFFMDBHelper.h */,
+				FC57F85725CBEEBC00A752E1 /* XDTAFFMDBHelper.m */,
+			);
+			path = TAF;
+			sourceTree = "<group>";
+		};
+		FC57F7D025CBEB2100A752E1 /* ZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				FC57F7D125CBEB2100A752E1 /* minizip */,
+				FC57F7F125CBEB2100A752E1 /* SSZipCommon.h */,
+				FC57F7F025CBEB2100A752E1 /* SSZipArchive.h */,
+				FC57F7F225CBEB2100A752E1 /* SSZipArchive.m */,
+			);
+			path = ZipArchive;
+			sourceTree = "<group>";
+		};
+		FC57F7D125CBEB2100A752E1 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				FC57F7D225CBEB2100A752E1 /* mz_strm_os_posix.c */,
+				FC57F7D325CBEB2100A752E1 /* mz_strm_pkcrypt.c */,
+				FC57F7D425CBEB2100A752E1 /* mz_strm_wzaes.h */,
+				FC57F7D525CBEB2100A752E1 /* mz_compat.h */,
+				FC57F7D625CBEB2100A752E1 /* mz_strm_zlib.c */,
+				FC57F7D725CBEB2100A752E1 /* mz_zip.c */,
+				FC57F7D825CBEB2100A752E1 /* mz_os.h */,
+				FC57F7D925CBEB2100A752E1 /* LICENSE */,
+				FC57F7DA25CBEB2100A752E1 /* mz_zip_rw.c */,
+				FC57F7DB25CBEB2100A752E1 /* mz_strm_split.h */,
+				FC57F7DC25CBEB2100A752E1 /* mz_strm_buf.h */,
+				FC57F7DD25CBEB2100A752E1 /* mz_crypt_apple.c */,
+				FC57F7DE25CBEB2100A752E1 /* mz_strm.h */,
+				FC57F7DF25CBEB2100A752E1 /* mz_strm_mem.c */,
+				FC57F7E025CBEB2100A752E1 /* mz_crypt.c */,
+				FC57F7E125CBEB2100A752E1 /* mz_strm_wzaes.c */,
+				FC57F7E225CBEB2100A752E1 /* mz_strm_zlib.h */,
+				FC57F7E325CBEB2100A752E1 /* mz_compat.c */,
+				FC57F7E425CBEB2100A752E1 /* mz_strm_pkcrypt.h */,
+				FC57F7E525CBEB2100A752E1 /* mz_zip_rw.h */,
+				FC57F7E625CBEB2100A752E1 /* mz_os.c */,
+				FC57F7E725CBEB2100A752E1 /* mz_zip.h */,
+				FC57F7E825CBEB2100A752E1 /* mz_os_posix.c */,
+				FC57F7E925CBEB2100A752E1 /* mz.h */,
+				FC57F7EA25CBEB2100A752E1 /* mz_strm_buf.c */,
+				FC57F7EB25CBEB2100A752E1 /* mz_strm_split.c */,
+				FC57F7EC25CBEB2100A752E1 /* mz_crypt.h */,
+				FC57F7ED25CBEB2100A752E1 /* mz_strm_mem.h */,
+				FC57F7EE25CBEB2100A752E1 /* mz_strm.c */,
+				FC57F7EF25CBEB2100A752E1 /* mz_strm_os.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		FC57F81825CBEC9100A752E1 /* SAMKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				FC57F81B25CBEC9100A752E1 /* SAMKeychainQuery.h */,
+				FC57F81925CBEC9100A752E1 /* SAMKeychainQuery.m */,
+				FC57F81A25CBEC9100A752E1 /* SAMKeychain.h */,
+				FC57F81C25CBEC9100A752E1 /* SAMKeychain.m */,
+			);
+			path = SAMKeychain;
+			sourceTree = "<group>";
+		};
+		FC57F81D25CBEC9100A752E1 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				FC57F82525CBEC9100A752E1 /* FMDB.h */,
+				FC57F81E25CBEC9100A752E1 /* FMDatabase.h */,
+				FC57F82325CBEC9100A752E1 /* FMDatabase.m */,
+				FC57F82425CBEC9100A752E1 /* FMDatabaseQueue.h */,
+				FC57F81F25CBEC9100A752E1 /* FMDatabaseQueue.m */,
+				FC57F82025CBEC9100A752E1 /* FMResultSet.h */,
+				FC57F82825CBEC9100A752E1 /* FMResultSet.m */,
+				FC57F82625CBEC9100A752E1 /* FMDatabaseAdditions.h */,
+				FC57F82225CBEC9100A752E1 /* FMDatabaseAdditions.m */,
+				FC57F82125CBEC9100A752E1 /* FMDatabasePool.h */,
+				FC57F82725CBEC9100A752E1 /* FMDatabasePool.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		FC57F84025CBED5800A752E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC57F84C25CBEDE400A752E1 /* libc++.tbd */,
+				FC57F84B25CBEDD600A752E1 /* libiconv.tbd */,
+				FC57F84A25CBEDCB00A752E1 /* libxml2.tbd */,
+				FC57F84425CBED7A00A752E1 /* libz.tbd */,
+				FC57F84325CBED6900A752E1 /* libsqlite3.tbd */,
+				FC57F84125CBED5900A752E1 /* Security.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FCC448F825C7EA85008B3D02 = {
@@ -73,6 +301,7 @@
 			children = (
 				FCC4490425C7EA85008B3D02 /* XDTAF */,
 				FCC4490325C7EA85008B3D02 /* Products */,
+				FC57F84025CBED5800A752E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,9 +316,10 @@
 		FCC4490425C7EA85008B3D02 /* XDTAF */ = {
 			isa = PBXGroup;
 			children = (
-				FC89521225CA2CC300975C3A /* Categorys */,
+				FC57F7CF25CBEB0800A752E1 /* TAF */,
 				FCC4497F25C8027B008B3D02 /* HTTP */,
 				FCC4493925C7EBEA008B3D02 /* Configs */,
+				FC57F7CE25CBE79A00A752E1 /* Thrid */,
 				FCC4490525C7EA85008B3D02 /* XDTAF.h */,
 				FCC4490625C7EA85008B3D02 /* Info.plist */,
 			);
@@ -131,14 +361,42 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC89521525CA2CE800975C3A /* NSString+XDTAF.h in Headers */,
+				FC57F80625CBEB2100A752E1 /* mz_zip_rw.h in Headers */,
+				FC57F81225CBEB2200A752E1 /* SSZipCommon.h in Headers */,
+				FC57F81125CBEB2200A752E1 /* SSZipArchive.h in Headers */,
+				FC57F80A25CBEB2200A752E1 /* mz.h in Headers */,
+				FC57F80E25CBEB2200A752E1 /* mz_strm_mem.h in Headers */,
+				FC57F80D25CBEB2200A752E1 /* mz_crypt.h in Headers */,
+				FC57F83425CBEC9100A752E1 /* FMDB.h in Headers */,
 				FC1B567C25C92963008E85F5 /* XDTAFHTTPRequest.h in Headers */,
+				FC57F82A25CBEC9100A752E1 /* SAMKeychain.h in Headers */,
 				FCC4490725C7EA85008B3D02 /* XDTAF.h in Headers */,
+				FC57F82F25CBEC9100A752E1 /* FMResultSet.h in Headers */,
+				FC57F7BE25CBE5FE00A752E1 /* XDTAFNSString.h in Headers */,
+				FC57F81025CBEB2200A752E1 /* mz_strm_os.h in Headers */,
+				FC57F7C325CBE60D00A752E1 /* XDTAFNSData.h in Headers */,
 				FC1B567225C8E7BB008E85F5 /* XDTAFHTTPHeader.h in Headers */,
+				FC57F7FD25CBEB2100A752E1 /* mz_strm_buf.h in Headers */,
 				FC1B568625C92C60008E85F5 /* XDTAFHTTPResponse.h in Headers */,
+				FC57F7FC25CBEB2100A752E1 /* mz_strm_split.h in Headers */,
+				FC57F7F925CBEB2100A752E1 /* mz_os.h in Headers */,
+				FC57F7CA25CBE74100A752E1 /* XDTAFHash.h in Headers */,
+				FC57F80825CBEB2200A752E1 /* mz_zip.h in Headers */,
+				FC57F83325CBEC9100A752E1 /* FMDatabaseQueue.h in Headers */,
+				FC57F7F625CBEB2100A752E1 /* mz_compat.h in Headers */,
+				FC57F85825CBEEBC00A752E1 /* XDTAFFMDBHelper.h in Headers */,
+				FC57F7FF25CBEB2100A752E1 /* mz_strm.h in Headers */,
+				FC57F80325CBEB2100A752E1 /* mz_strm_zlib.h in Headers */,
+				FC57F80525CBEB2100A752E1 /* mz_strm_pkcrypt.h in Headers */,
+				FC57F83525CBEC9100A752E1 /* FMDatabaseAdditions.h in Headers */,
+				FC57F82B25CBEC9100A752E1 /* SAMKeychainQuery.h in Headers */,
+				FC57F85225CBEE6B00A752E1 /* XDTAFHandler.h in Headers */,
+				FC57F7F525CBEB2100A752E1 /* mz_strm_wzaes.h in Headers */,
 				FC1B568C25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.h in Headers */,
+				FC57F82D25CBEC9100A752E1 /* FMDatabase.h in Headers */,
 				FC1B568125C92BAF008E85F5 /* XDTAFHTTP.h in Headers */,
 				FC1B567725C92648008E85F5 /* XDTAFHTTPCommon.h in Headers */,
+				FC57F83025CBEC9100A752E1 /* FMDatabasePool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +457,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC57F7FA25CBEB2100A752E1 /* LICENSE in Resources */,
 				FC7480C025C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig in Resources */,
 				FC7480BC25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig in Resources */,
 			);
@@ -211,13 +470,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC57F7C425CBE60D00A752E1 /* XDTAFNSData.m in Sources */,
+				FC57F81325CBEB2200A752E1 /* SSZipArchive.m in Sources */,
 				FC1B568725C92C60008E85F5 /* XDTAFHTTPResponse.m in Sources */,
+				FC57F83225CBEC9100A752E1 /* FMDatabase.m in Sources */,
 				FC1B568D25C93E3B008E85F5 /* XDTAFHTTPAFNHelper.m in Sources */,
+				FC57F7F725CBEB2100A752E1 /* mz_strm_zlib.c in Sources */,
+				FC57F83725CBEC9100A752E1 /* FMResultSet.m in Sources */,
 				FC1B567D25C92963008E85F5 /* XDTAFHTTPRequest.m in Sources */,
+				FC57F7FB25CBEB2100A752E1 /* mz_zip_rw.c in Sources */,
+				FC57F7F825CBEB2100A752E1 /* mz_zip.c in Sources */,
+				FC57F7CB25CBE74100A752E1 /* XDTAFHash.m in Sources */,
+				FC57F80025CBEB2100A752E1 /* mz_strm_mem.c in Sources */,
+				FC57F80925CBEB2200A752E1 /* mz_os_posix.c in Sources */,
+				FC57F80C25CBEB2200A752E1 /* mz_strm_split.c in Sources */,
+				FC57F80125CBEB2100A752E1 /* mz_crypt.c in Sources */,
+				FC57F83625CBEC9100A752E1 /* FMDatabasePool.m in Sources */,
+				FC57F82C25CBEC9100A752E1 /* SAMKeychain.m in Sources */,
 				FC1B568225C92BAF008E85F5 /* XDTAFHTTP.m in Sources */,
-				FC89521625CA2CE800975C3A /* NSString+XDTAF.m in Sources */,
+				FC57F7F325CBEB2100A752E1 /* mz_strm_os_posix.c in Sources */,
+				FC57F80F25CBEB2200A752E1 /* mz_strm.c in Sources */,
+				FC57F85925CBEEBC00A752E1 /* XDTAFFMDBHelper.m in Sources */,
+				FC57F82E25CBEC9100A752E1 /* FMDatabaseQueue.m in Sources */,
+				FC57F7BF25CBE5FE00A752E1 /* XDTAFNSString.m in Sources */,
+				FC57F80225CBEB2100A752E1 /* mz_strm_wzaes.c in Sources */,
+				FC57F82925CBEC9100A752E1 /* SAMKeychainQuery.m in Sources */,
+				FC57F83125CBEC9100A752E1 /* FMDatabaseAdditions.m in Sources */,
 				FC1B567825C92648008E85F5 /* XDTAFHTTPCommon.m in Sources */,
+				FC57F7F425CBEB2100A752E1 /* mz_strm_pkcrypt.c in Sources */,
+				FC57F80725CBEB2200A752E1 /* mz_os.c in Sources */,
+				FC57F7FE25CBEB2100A752E1 /* mz_crypt_apple.c in Sources */,
 				FC1B567325C8E7BB008E85F5 /* XDTAFHTTPHeader.m in Sources */,
+				FC57F80B25CBEB2200A752E1 /* mz_strm_buf.c in Sources */,
+				FC57F85325CBEE6B00A752E1 /* XDTAFHandler.m in Sources */,
+				FC57F80425CBEB2100A752E1 /* mz_compat.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

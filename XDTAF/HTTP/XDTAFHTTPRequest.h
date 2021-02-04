@@ -9,14 +9,16 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-// MARK: - XDTAFHTTPRequestBody
+// MARK: XDTAFHTTPRequestBody
+
 @protocol XDTAFHTTPRequestBody <NSObject>
 
 - (NSURLSessionTask *)createSessionTask:(NSURLSession *)session request:(NSMutableURLRequest *)request;
 
 @end
 
-// MARK: - XDTAFHTTPRequestDataBody
+// MARK: XDTAFHTTPRequestDataBody
+
 @interface XDTAFHTTPRequestDataBody : NSObject <XDTAFHTTPRequestBody>
 
 + (instancetype)dataBodyWithData:(NSData *)data;
@@ -25,7 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-// MARK: - XDTAFHTTPRequestFormBody
+// MARK: XDTAFHTTPRequestFormBody
+
 @interface XDTAFHTTPRequestFormBody : NSObject <XDTAFHTTPRequestBody>
 
 - (void)add:(NSString *)name value:(NSString *)value;
@@ -34,14 +37,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-// MARK: - XDTAFHTTPRequestJSONBody
+// MARK: XDTAFHTTPRequestJSONBody
+
 @interface XDTAFHTTPRequestJSONBody : NSObject <XDTAFHTTPRequestBody>
 
 - (instancetype)initWithDictionary:(NSDictionary *)dict;
 
 @end
 
-//MARK: - XDTAFHTTPRequestMultipartBody
+// MARK: XDTAFHTTPRequestMultipartBody
+
 @interface XDTAFHTTPRequestMultipartBody : NSObject <XDTAFHTTPRequestBody>
 
 - (void)add:(NSString *)name value:(NSString *)value;
@@ -52,10 +57,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-// MARK: - XDTAFHTTPRequest
+// MARK: XDTAFHTTPRequest
+
 @interface XDTAFHTTPRequest : NSObject
 
-@property (nonatomic, readonly, copy) NSString *method;
+@property (nonatomic, readonly, copy) NSString * method;
 @property (nonatomic, readonly, strong) id<XDTAFHTTPRequestBody> body;
 @property (nonatomic, readonly, assign) NSTimeInterval timeout;
 
@@ -69,28 +75,33 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (NSURL *)getURL;
 
-/**
- @abstract 添加Header，会被encode
+/*!
+ * @abstract
+ * 添加Header, 会被encode
  */
 - (void)addHeader:(NSString *)name value:(NSString *)value;
 
-/**
- @abstract 添加已经encode的Header
+/*!
+ * @abstract
+ * 添加已encoded的Header
  */
 - (void)addEncodedHeader:(NSString *)name value:(NSString *)value;
 
-/**
- @abstract 添加Header,会被encode
+/*!
+ * @abstract
+ * 添加Header, 会被encode
  */
 - (void)addHeaders:(NSDictionary *)headers;
 
-/**
- @abstract 添加Path,会被encode，支持a/b/c这样的多级样式
+/*!
+ * @abstract
+ * 添加Path, 会被encode, 支持a/b/c这样的多级形式
  */
 - (void)addPath:(NSString *)pathSegment;
 
-/**
- @abstract 添加query，会被encode
+/*!
+ * @abstract
+ * 添加query, 会被encode
  */
 - (void)addQueryParameter:(NSString *)name value:(NSString *)value;
 

@@ -11,8 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface XDTAFHTTPHeader : NSObject
 
-@property (nonatomic, strong) NSMutableArray *encodedNames;
-@property (nonatomic, strong) NSMutableArray *encodedValues;
+@property (nonatomic, strong) NSMutableArray * encodedNames;
+@property (nonatomic, strong) NSMutableArray * encodedValues;
 
 - (void)add:(NSString *)name value:(NSString *)value;
 - (void)add:(NSDictionary *)headers;

@@ -11,9 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 FOUNDATION_EXPORT BOOL XDTAFHTTPCodeSuccessful(int code);
 
-FOUNDATION_EXPORT NSString *XDTAFHTTPEncode(NSString *str);
+FOUNDATION_EXPORT NSString * XDTAFHTTPEncode(NSString * str);
 
-FOUNDATION_EXPORT NSError *XDTAFHTTPError(NSString *format, ...) NS_FORMAT_FUNCTION(1, 2) NS_NO_TAIL_CALL;
+FOUNDATION_EXPORT NSError * XDTAFHTTPError(NSString * format, ...) NS_FORMAT_FUNCTION(1,2);
 
 @interface NSURLSession (XDTAFHTTP)
 
@@ -21,7 +21,7 @@ FOUNDATION_EXPORT NSError *XDTAFHTTPError(NSString *format, ...) NS_FORMAT_FUNCT
 
 - (NSURLSessionUploadTask *)xdtaf_http_safe_uploadTaskWithRequest:(NSURLRequest *)request fromData:(NSData *)bodyData;
 
-- (NSURLSessionUploadTask *)xdtaf_http_safe_uploadTaskWithRequest:(NSURLRequest *)request fromFile:(NSURL *)bodyFile;
+- (NSURLSessionUploadTask *)xdtaf_http_safe_uploadTaskWithRequest:(NSURLRequest *)request fromFile:(NSURL *)fileURL;
 
 - (NSURLSessionUploadTask *)xdtaf_http_safe_uploadTaskWithStreamedRequest:(NSURLRequest *)request;
 

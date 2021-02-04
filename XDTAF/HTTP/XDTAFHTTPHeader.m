@@ -11,7 +11,7 @@
 @implementation XDTAFHTTPHeader
 - (instancetype)init {
     self = [super init];
-    
+
     if (self) {
         _encodedNames = [NSMutableArray arrayWithCapacity:4];
         _encodedValues = [NSMutableArray arrayWithCapacity:4];
