@@ -7,4 +7,5 @@ xcuserdata/
 /.vscode
 DependencyFrameworks/
 *.framework
+*.xcframework
 *.zip

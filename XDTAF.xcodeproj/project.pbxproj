@@ -78,8 +78,7 @@
 		FC57F85325CBEE6B00A752E1 /* XDTAFHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F85125CBEE6B00A752E1 /* XDTAFHandler.m */; };
 		FC57F85825CBEEBC00A752E1 /* XDTAFFMDBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FC57F85625CBEEBC00A752E1 /* XDTAFFMDBHelper.h */; };
 		FC57F85925CBEEBC00A752E1 /* XDTAFFMDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FC57F85725CBEEBC00A752E1 /* XDTAFFMDBHelper.m */; };
-		FC7480BC25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FC7480BB25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig */; };
-		FC7480C025C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FC7480BF25C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig */; };
+		FC7480BC25C83C8B0097EAEF /* Configs.XDTAF.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FC7480BB25C83C8B0097EAEF /* Configs.XDTAF.xcconfig */; };
 		FCC4490725C7EA85008B3D02 /* XDTAF.h in Headers */ = {isa = PBXBuildFile; fileRef = FCC4490525C7EA85008B3D02 /* XDTAF.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -160,8 +159,7 @@
 		FC57F85125CBEE6B00A752E1 /* XDTAFHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDTAFHandler.m; sourceTree = "<group>"; };
 		FC57F85625CBEEBC00A752E1 /* XDTAFFMDBHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDTAFFMDBHelper.h; sourceTree = "<group>"; };
 		FC57F85725CBEEBC00A752E1 /* XDTAFFMDBHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDTAFFMDBHelper.m; sourceTree = "<group>"; };
-		FC7480BB25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Configs.XDTAF.Debug.xcconfig; sourceTree = "<group>"; };
-		FC7480BF25C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Configs.XDTAF.Release.xcconfig; sourceTree = "<group>"; };
+		FC7480BB25C83C8B0097EAEF /* Configs.XDTAF.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Configs.XDTAF.xcconfig; sourceTree = "<group>"; };
 		FCC4490225C7EA85008B3D02 /* XDTAF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XDTAF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC4490525C7EA85008B3D02 /* XDTAF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDTAF.h; sourceTree = "<group>"; };
 		FCC4490625C7EA85008B3D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -329,8 +327,7 @@
 		FCC4493925C7EBEA008B3D02 /* Configs */ = {
 			isa = PBXGroup;
 			children = (
-				FC7480BB25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig */,
-				FC7480BF25C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig */,
+				FC7480BB25C83C8B0097EAEF /* Configs.XDTAF.xcconfig */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -458,8 +455,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC57F7FA25CBEB2100A752E1 /* LICENSE in Resources */,
-				FC7480C025C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig in Resources */,
-				FC7480BC25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig in Resources */,
+				FC7480BC25C83C8B0097EAEF /* Configs.XDTAF.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,7 +626,7 @@
 		};
 		FCC4490B25C7EA85008B3D02 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC7480BB25C83C8B0097EAEF /* Configs.XDTAF.Debug.xcconfig */;
+			baseConfigurationReference = FC7480BB25C83C8B0097EAEF /* Configs.XDTAF.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -654,7 +650,7 @@
 		};
 		FCC4490C25C7EA85008B3D02 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC7480BF25C83C9E0097EAEF /* Configs.XDTAF.Release.xcconfig */;
+			baseConfigurationReference = FC7480BB25C83C8B0097EAEF /* Configs.XDTAF.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

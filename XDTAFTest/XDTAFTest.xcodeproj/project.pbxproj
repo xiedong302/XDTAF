@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC57F87125CBF61F00A752E1 /* XDTAF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC57F87025CBF61F00A752E1 /* XDTAF.framework */; };
-		FC57F87225CBF61F00A752E1 /* XDTAF.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FC57F87025CBF61F00A752E1 /* XDTAF.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FC57F8F025CC01B500A752E1 /* XDTAF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC57F8EF25CC01B500A752E1 /* XDTAF.framework */; };
+		FC57F8F125CC01B500A752E1 /* XDTAF.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FC57F8EF25CC01B500A752E1 /* XDTAF.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FCC4496025C7EE00008B3D02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC4495F25C7EE00008B3D02 /* AppDelegate.m */; };
 		FCC4496325C7EE00008B3D02 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC4496225C7EE00008B3D02 /* SceneDelegate.m */; };
 		FCC4496625C7EE00008B3D02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC4496525C7EE00008B3D02 /* ViewController.m */; };
@@ -25,7 +25,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FC57F87225CBF61F00A752E1 /* XDTAF.framework in Embed Frameworks */,
+				FC57F8F125CC01B500A752E1 /* XDTAF.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,7 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FC57F87025CBF61F00A752E1 /* XDTAF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XDTAF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC57F8EF25CC01B500A752E1 /* XDTAF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XDTAF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC4495B25C7EE00008B3D02 /* XDTAFTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDTAFTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC4495E25C7EE00008B3D02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FCC4495F25C7EE00008B3D02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC57F87125CBF61F00A752E1 /* XDTAF.framework in Frameworks */,
+				FC57F8F025CC01B500A752E1 /* XDTAF.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +63,7 @@
 		FC57F86F25CBF61E00A752E1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FC57F87025CBF61F00A752E1 /* XDTAF.framework */,
+				FC57F8EF25CC01B500A752E1 /* XDTAF.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
